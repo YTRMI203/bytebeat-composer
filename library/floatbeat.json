@@ -220,6 +220,17 @@
 			"file": "lhphr - reverb multi.js",
 			"fileMinified": true,
 			"fileOriginal": true
+		}, {	
+		"author": "Kehkeown",
+		"children": [{
+			"description": "floatbeat rhythm thing",
+			"url": "https://www.reddit.com/r/bytebeat/comments/xa4u9c/floatbeat_rhythm_thingy/",
+			"date": "2022-09-09",
+			"mode": "Floatbeat",
+			"sampleRate": 32000,
+			"codeOriginal": "tan=cos((t&t>>12^(t>>12&3))),kick=cos(1.5**(-t/512%32+8)),tan+kick",
+			"starred": 1
+
 		}]
 	}
 ]
