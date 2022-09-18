@@ -1,1 +1,90 @@
-
+[
+  {
+    "description": "digital grind",
+    "date": "2022-07-22",
+    "sampleRate": 44100,
+    "codeOriginal": "((t>>8096|t>>6|t>>5)*(t>>8))",
+    "codeMinified": "(t>>8096|t>>6|t>>5)*(t>>8)",
+    "starred": 1
+  },
+  {
+    "description": "weird",
+    "date": "2022-07-24",
+    "codeOriginal": "t=t*((t>>6|t>>5)|t>>3)",
+    "codeMinified": "t*((t>>6|t>>5)|t>>3)",
+    "starred": 1
+  },
+  {
+    "description": "drop",
+    "date": "2022-07-25",
+    "sampleRate": 32000,
+    "codeOriginal": "t^((t*t>>8)|t>>1)|t>>4",
+    "codeMinified": "t^(t*t>>8|t>>1)|t>>4",
+    "starred": 1
+  },
+  {
+    "description": "waves",
+    "date": "2022-08-04",
+    "codeOriginal": "t*(t>>6)%(t>>6|t>>12)",
+    "starred": 1
+  },
+  {
+    "description": "Noisy Remix",
+    "date": "2022-09-03",
+    "children": [
+      {
+        "description": "1 variant",
+        "sampleRate": 44100,
+        "codeOriginal": "t+(t*sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
+      },
+      {
+        "description": "2 variant",
+        "sampleRate": 44100,
+        "codeOriginal": "t+(t+sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
+      }
+    ],
+    "starred": 1
+  },
+  {
+    "description": "puzzle",
+    "date": "2022-09-05",
+    "codeOriginal": "((t>>8&12)*t)+(-t*6^(t>>7))",
+    "starred": 1
+  },
+  {
+    "description": "thing",
+    "date": "2022-09-08",
+    "codeOriginal": "(t&t>>11)*t",
+    "starred": 1
+  },
+  {
+    "description": "wrinkle rhythm",
+    "date": "2022-09-09",
+    "codeOriginal": "t>>(t+(t>>7)^(t&t>>6)) ",
+    "starred": 1
+  },
+  {
+    "description": "buzzing machine",
+    "date": "2022-09-10",
+    "codeOriginal": "t*t^t>>6",
+    "starred": 1
+  },
+  {
+    "description": "crude sinewave dubstep but fast",
+    "date": "2022-09-12",
+    "codeOriginal": "a=t*cos(t>>11&t)^t,a+t",
+    "starred": 1
+  },
+  {
+    "description": "d6r * perspective",
+    "date": "2022-09-13",
+    "codeOriginal": "p=t^4*t>>7|t>>6,p*(t&1|t>>12)",
+    "starred": 1
+  },
+  {
+    "description": "moon scanner generation - only 1 part",
+    "date": "2022-09-17",
+    "codeOriginal": "t-(t^t>>5)",
+    "starred": 1
+  }
+]
