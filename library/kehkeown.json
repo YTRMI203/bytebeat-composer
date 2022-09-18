@@ -29,6 +29,11 @@
     "starred": 1
   },
   {
+    "description": "bit as on: t * ((t>>12|t>>8)&63&t>>4) ",
+    "codeOriginal": "t*(t>>8&t>>4)",
+    "starred": 1
+  },
+  {
     "description": "Noisy Remix",
     "date": "2022-09-03",
     "children": [
