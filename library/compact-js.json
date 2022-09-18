@@ -319,9 +319,25 @@
 			"codeOriginal": "j=(t-41024&t+1024)>>11&255,k=t&16383,(t*(j&255)/2&127)+((100000/(t&4095))/4&63)+((int(k/(k>>7)-136)/8)&((32*(1+(j>7))-1)))",
 			"codeMinified": "j=(t-41024&t+1024)>>11&255,k=t&16383,(t*(j&255)/2&127)+(1E5/(t&4095)/4&63)+(int(k/(k>>7)-136)/8&32*(1+(7<j))-1)"
 		}, {
+			"description": "Deep Tones",
+			"codeOriginal": "t*(t*287/256&t>>11&31)",
+		}, {
+			"description": "Song",
+			"codeOriginal": "(-1-t|t+t/256)-(-(t-(t>>8))|t+(t>>8))",
+		}, {
+			"description": "Shapeshifter Tune",
+			"codeOriginal": "y=t*(t>>10&42),y*2|y+t/64",
+		}, {
 			"description": "The Rhythm",
 			"codeOriginal": "a=t-256,((44*(t/256-28|3)|t*8&t>>11&t>>5|t*(a>>3&a>>4&a>>5&64)>>t/16)/2&127)+(((t^t+t/256)&255)/(5-(t>>17&3))/2&127)"
 		}]
+	}, {
+		"description": "all 'board the ole steam boat",
+		"author": "Noah Lovotti",
+		"url": "https://youtu.be/V4GfkFbDojc?t=729",
+		"date": "2016-07-09",
+		"sampleRate": 8000,
+		"codeOriginal": "v="4568"[t>>11&3],w=(t>>5|t>>v^sin(t/8/(v/(((t>>12&t>>14)&8)+((t>>14|t>>11)&1))))*29-100),w+(v*((t*v/7*4&t>>11)|w))",
 	}, {
 		"description": "here enjoy some choords I made :)",
 		"author": "LJ",
