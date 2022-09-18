@@ -336,7 +336,7 @@
 		"author": "Noah Lovotti",
 		"url": "https://youtu.be/V4GfkFbDojc?t=729",
 		"date": "2016-07-09",
-		"codeOriginal": "v=","4568":"[t>>11&3],w=(t>>5|t>>v^sin(t/8/(v/(((t>>12&t>>14)&8)+((t>>14|t>>11)&1))))*29-100),w+(v*((t*v/7*4&t>>11)|w))",
+		"codeOriginal": "v="4568":"[t>>11&3],w=(t>>5|t>>v^sin(t/8/(v/(((t>>12&t>>14)&8)+((t>>14|t>>11)&1))))*29-100),w+(v*((t*v/7*4&t>>11)|w))",
 		"starred": 1
 	}, {
 		"description": "here enjoy some choords I made :)",
