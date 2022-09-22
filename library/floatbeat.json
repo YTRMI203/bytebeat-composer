@@ -93,18 +93,6 @@
         "codeMinified": "q=(f,v,y)=>(2*y-1)*f(t*(t&t>>12-log2(1+(z=t>>21&3)))/v/(1+z)+y*PI)**(1-(g=z!=t>>21)/2),k=y=>(2*y-1)*sin(2E3/(t%16384)**.1+y*PI)**.25,c=h=>isNaN(h)?0:h,((c(q(cos,1E5,0))+g*c(q(cos,1E5,1)))*(c(q(sin,7E4,0))+g*c(q(sin,7E4,1)))+sin(t%256/(6-4*g)**(t/512%64))+g*(c(k(0))+c(k(1)))/2+sin(2*PI*random())/(2-g/2)**((4+t/4096)%8))/2"
       },
       {
-        "description": "something something reverb",
-        "url": "https://www.reddit.com/r/bytebeat/comments/v0y4mf/something_something_reverb/",
-        "date": "2022-05-30",
-        "mode": "Floatbeat",
-        "sampleRate": 44100,
-        "file": "lhphr - something something reverb.js",
-        "fileFormatted": true,
-        "fileMinified": true,
-        "fileOriginal": true,
-        "starred": 1
-      },
-      {
         "description": "Vé",
         "url": "https://dollchan.net/btb/res/3.html#88",
         "date": "2022-06-07",
@@ -127,6 +115,39 @@
     ]
   },
   {
+    "author": "unknown",
+    "children": [
+      {
+        "description": "????1",
+        "mode": "Floatbeat",
+        "codeOriginal": "((  ((t&4096)?((t*(t^t%255)|(t>>4))>>1):(t>>3)|((t&8192)?t>>2:t))                        ) & 255) / 127 - 1",
+        "codeMinified": "((((t&4096)?((t*(t^t%255)|(t>>4))>>1):(t>>3)|((t&8192)?t>>2:t)))&255)/127-1",
+        "starred": 1
+      },
+      {
+        "description": "????2",
+        "mode": "Floatbeat",
+        "codeOriginal": "((  (t>>7|t|t>>6)*10+4*(t&t>>13|t>>6)                        ) & 255) / 127 - 1",
+        "codeMinified": "(((t>>7|t|t>>6)*10+4*(t&t>>13|t>>6))&255)/127-1",
+        "starred": 1
+      },
+      {
+        "description": "????4",
+        "mode": "Floatbeat",
+        "codeOriginal": "((  (t>>7|t|t>>6)*10+4*(t&t>>13|t>>6)                        ) & 255) / 127 - 1",
+        "codeMinified": "(((t>>7|t|t>>6)*10+4*(t&t>>13|t>>6))&255)/127-1",
+        "starred": 1
+      },
+      {
+        "description": "????6",
+        "mode": "Floatbeat",
+        "codeOriginal": "((  Math.floor(t/1000000*t*t+t)%127 | (t >> 4) | (t >> 5) | (t % 127 + (t >> 16)) | t                          ) & 255) / 127 - 1\n\n",
+        "codeMinified": "((Math.floor(t/1000000*t*t+t)%127|(t>>4)|(t>>5)|(t%127+(t>>16))|t)&255)/127-1",
+        "starred": 2
+      }
+    ]
+  },
+  {
     "author": "Kehkeown",
     "children": [
       {
@@ -135,9 +156,7 @@
         "date": "2022-09-09",
         "mode": "Floatbeat",
         "sampleRate": 32000,
-        "codeOriginal": [
-          "tan=cos((t&t>>12^(t>>12&3))),kick=cos(1.5**(-t/512%32+8)),tan+kick"
-        ],
+        "codeOriginal": "tan=cos((t&t>>12^(t>>12&3))),kick=cos(1.5**(-t/512%32+8)),tan+kick",
         "starred": 1
       }
     ]
