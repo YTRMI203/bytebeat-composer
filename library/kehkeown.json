@@ -63,6 +63,13 @@
     "starred": 1
   },
   {
+    "description": "melody harmony",
+    "date": "2022-09-22",
+    "codeOriginal": "((t|(t+t&t>>9|t>>5)))",
+    "codeMinified": "t|t+t&t>>9|t>>5",
+    "starred": 1
+  },
+  {
     "description": "wrinkle rhythm",
     "date": "2022-09-09",
     "codeOriginal": "t>>(t+(t>>7)^(t&t>>6)) ",
