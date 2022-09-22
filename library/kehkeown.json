@@ -130,6 +130,7 @@
   {
     "description": "crude sinewave dubstep but fast",
     "date": "2022-09-12",
+    "sampleRate": 32000,
     "codeOriginal": "a=t*cos(t>>11&t)^t,a+t",
     "starred": 1
   },
