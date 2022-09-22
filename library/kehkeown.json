@@ -48,7 +48,19 @@
         "codeOriginal": "t+(t+sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
       }
     ],
-    "starred": 1
+    "starred": 1,
+    "children (copy)": [
+      {
+        "description": "1 variant",
+        "sampleRate": 44100,
+        "codeOriginal": "t+(t*sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
+      },
+      {
+        "description": "2 variant",
+        "sampleRate": 44100,
+        "codeOriginal": "t+(t+sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
+      }
+    ]
   },
   {
     "description": "puzzle",
@@ -67,6 +79,39 @@
     "date": "2022-09-22",
     "codeOriginal": "((t|(t+t&t>>9|t>>5)))",
     "codeMinified": "t|t+t&t>>9|t>>5",
+    "starred": 1
+  },
+  {
+    "description": "Unkown codes",
+    "children": [
+      {
+        "date": "2022-09-22",
+        "sampleRate": 32000,
+        "codeOriginal": "t^-t*cos(t>>13)"
+      },
+      {
+        "date": "2022-09-22",
+        "codeOriginal": "t-(t>>12|t^t>>5)"
+      },
+      {
+        "date": "2022-09-22",
+        "codeOriginal": "t-(t^-t>>6)"
+      },
+      {
+        "date": "2022-09-22",
+        "codeOriginal": "t^-(t^-t>>6)%255"
+      },
+      {
+        "date": "2022-09-22",
+        "codeOriginal": "t^-(t^-t>>6)"
+      },
+      {
+        "description": "linenut",
+        "date": "2022-09-22",
+        "sampleRate": 32000,
+        "codeOriginal": "t^(t*t>>8%t>>127)"
+      }
+    ],
     "starred": 1
   },
   {
