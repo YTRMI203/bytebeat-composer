@@ -82,12 +82,17 @@
     "starred": 1
   },
   {
-    "description": "more beats",
+    "description": "not description codes",
     "children": [
       {
         "date": "2022-09-22",
         "sampleRate": 32000,
         "codeOriginal": "t^-t*cos(t>>13)"
+      },
+      {
+        "date": "2022-09-23",
+        "codeOriginal": "t^-((t&t>>6^(t^-(t+(t^-t>>8)^t)-t^-t>>9))^-t%t)",
+        "codeMinified": "t^-(t&t>>6^(t^-(t+(t^-t>>8)^t)-t^-t>>9))^-t%t"
       },
       {
         "date": "2022-09-22",
