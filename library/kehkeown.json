@@ -48,19 +48,7 @@
         "codeOriginal": "t+(t+sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
       }
     ],
-    "starred": 1,
-    "children (copy)": [
-      {
-        "description": "1 variant",
-        "sampleRate": 44100,
-        "codeOriginal": "t+(t*sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
-      },
-      {
-        "description": "2 variant",
-        "sampleRate": 44100,
-        "codeOriginal": "t+(t+sin((t&1024?9:6))*(t&4096?2:6))/(t+t>>12&t)"
-      }
-    ]
+    "starred": 2
   },
   {
     "description": "puzzle",
@@ -101,7 +89,8 @@
       {
         "description": "(Favorited)",
         "date": "2022-09-22",
-        "codeOriginal": "t-(t^-t>>6)"
+        "codeOriginal": "t-(t^-t>>6)",
+        "starred": 2
       },
       {
         "date": "2022-09-22",
@@ -115,7 +104,8 @@
         "description": "linenut",
         "date": "2022-09-22",
         "sampleRate": 32000,
-        "codeOriginal": "t^(t*t>>8%t>>127)"
+        "codeOriginal": "t^(t*t>>8%t>>127)",
+        "starred": 1
       }
     ],
     "starred": 1
@@ -133,11 +123,11 @@
     "starred": 1
   },
   {
-    "description": "crude sinewave dubstep but fast",
+    "description": "(Favorited) crude sinewave dubstep but fast",
     "date": "2022-09-12",
     "sampleRate": 32000,
     "codeOriginal": "a=t*cos(t>>11&t)^t,a+t",
-    "starred": 1
+    "starred": 2
   },
   {
     "description": "d6r * perspective",
