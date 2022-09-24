@@ -337,7 +337,7 @@ globalThis.bytebeat = new class {
 			entry += `<div class="entry-children">${ childrenStr }</div>`;
 		}
 		return `<div class="${ codeOriginal || codeMinified || file || children ? 'entry' : 'entry-text' }${
-			starred ? ' ' + ['star-gray', 'star-light-blue'][starred - 1] : '' }">${ entry }</div>`;
+			starred ? ' ' + ['star-white', 'star-blue'][starred - 1] : '' }">${ entry }</div>`;
 	}
 	getX(t) {
 		return t / (1 << this.settings.drawScale);
