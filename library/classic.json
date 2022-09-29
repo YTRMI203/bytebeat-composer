@@ -397,11 +397,10 @@
   {
     "description": "source",
     "author": "bst",
-    "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/",
+    "url": "http://pouet.net/topic.php?which=8357&page=10",
     "date": "2011-10-05",
     "codeOriginal": "(int)(t/1e7*t*t+t)%127|t>>4|t>>5|t%127+(t>>16)|t",
-    "codeMinified": "t/1e7*t*t%127|t>>4|t>>5|t%127+(t>>16)|t",
-    "starred": 1
+    "codeMinified": "t/1e7*t*t%127|t>>4|t>>5|t%127+(t>>16)|t"
   },
   {
     "description": "ass kicking vocals (starting properly after 50s or so)",
