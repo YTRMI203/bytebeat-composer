@@ -319,15 +319,6 @@
     "starred": 1
   },
   {
-    "description": "source",
-    "author": "bst",
-    "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/",
-    "date": "2011-10-05",
-    "codeOriginal": "(int)(t/1e7*t*t+t)%127|t>>4|t>>5|t%127+(t>>16)|t",
-    "codeMinified": "t/1e7*t*t%127|t>>4|t>>5|t%127+(t>>16)|t",
-    "starred": 1
-  },
-  {
     "description": "CA98",
     "starred": 2,
     "children": [
@@ -402,6 +393,15 @@
         "codeMinified": "t*(t>>12)*64+(t>>1)*(t>>10)*(t>>11)*48>>((t>>16|t>>17)&1)"
       }
     ]
+  },
+  {
+    "description": "source",
+    "author": "bst",
+    "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/",
+    "date": "2011-10-05",
+    "codeOriginal": "(int)(t/1e7*t*t+t)%127|t>>4|t>>5|t%127+(t>>16)|t",
+    "codeMinified": "t/1e7*t*t%127|t>>4|t>>5|t%127+(t>>16)|t",
+    "starred": 1
   },
   {
     "description": "ass kicking vocals (starting properly after 50s or so)",
