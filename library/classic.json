@@ -436,13 +436,13 @@
     "codeOriginal": "((t>>1%128)+20)*3*t>>14*t>>18",
     "codeMinified": "3*((t>>1)+20)*t>>14*t>>18"
   },
-  {
-    "description": "source",
+    {
     "author": "bst",
+    "description": "source",
     "url": "http://www.youtube.com/watch?v=tCRPUv8V22o",
     "date": "2011-10-10",
     "codeOriginal": "(int)(t/1e7*t*t+t)%127|t>>4|t>>5|t%127+(t>>16)|t",
-    "codeMinified": "t/1e7*t*t%127|t>>4|t>>5|t%127+(t>>16)|t"
+    "codeMinified": "t/1e7*t*t%127|(t>>5|t>>4|t%127)|t"
   },
   {
     "descriotion": "Feel the funk y'all (or something)",
