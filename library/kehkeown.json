@@ -4,34 +4,29 @@
     "date": "2022-07-22",
     "sampleRate": 44100,
     "codeOriginal": "((t>>8096|t>>6|t>>5)*(t>>8))",
-    "codeMinified": "(t>>8096|t>>6|t>>5)*(t>>8)",
-    "starred": 1
+    "codeMinified": "(t>>8096|t>>6|t>>5)*(t>>8)"
   },
   {
     "description": "weird",
     "date": "2022-07-24",
     "codeOriginal": "t=t*((t>>6|t>>5)|t>>3)",
-    "codeMinified": "t*((t>>6|t>>5)|t>>3)",
-    "starred": 1
+    "codeMinified": "t*((t>>6|t>>5)|t>>3)"
   },
   {
     "description": "drop",
     "date": "2022-07-25",
     "sampleRate": 32000,
     "codeOriginal": "t^((t*t>>8)|t>>1)|t>>4",
-    "codeMinified": "t^(t*t>>8|t>>1)|t>>4",
-    "starred": 1
+    "codeMinified": "t^(t*t>>8|t>>1)|t>>4"
   },
   {
     "description": "waves",
     "date": "2022-08-04",
-    "codeOriginal": "t*(t>>6)%(t>>6|t>>12)",
-    "starred": 1
+    "codeOriginal": "t*(t>>6)%(t>>6|t>>12)"
   },
   {
     "description": "bit as on: t * ((t>>12|t>>8)&63&t>>4) ",
-    "codeOriginal": "t*(t>>8&t>>4)",
-    "starred": 1
+    "codeOriginal": "t*(t>>8&t>>4)"
   },
   {
     "description": "Noisy Remix",
@@ -70,9 +65,9 @@
     "starred": 1
   },
   {
-    "description": "not description codes",
     "children": [
       {
+        "description": "buzzing harmony",
         "date": "2022-09-22",
         "sampleRate": 32000,
         "codeOriginal": "t^-t*cos(t>>13)"
@@ -87,10 +82,10 @@
         "codeOriginal": "t-(t>>12|t^t>>5)"
       },
       {
-        "description": "(Favorited)",
+        "description": "",
         "date": "2022-09-22",
         "codeOriginal": "t-(t^-t>>6)",
-        "starred": 2
+        "starred": 1
       },
       {
         "date": "2022-09-22",
@@ -107,8 +102,7 @@
         "codeOriginal": "t^(t*t>>8%t>>127)",
         "starred": 1
       }
-    ],
-    "starred": 1
+    ]
   },
   {
     "description": "wrinkle rhythm",
@@ -119,26 +113,31 @@
   {
     "description": "buzzing machine",
     "date": "2022-09-10",
-    "codeOriginal": "t*t^t>>6",
-    "starred": 1
+    "codeOriginal": "t*t^t>>6"
   },
   {
-    "description": "(Favorited) crude sinewave dubstep but fast",
+    "description": "crude sinewave dubstep but fast",
     "date": "2022-09-12",
     "sampleRate": 32000,
     "codeOriginal": "a=t*cos(t>>11&t)^t,a+t",
-    "starred": 2
+    "starred": 1
   },
   {
-    "description": "d6r * perspective",
-    "date": "2022-09-13",
-    "codeOriginal": "p=t^4*t>>7|t>>6,p*(t&1|t>>12)",
-    "starred": 1
+    "description": "gradual multiplication of code",
+    "children": [
+      {
+        "date": "2022-09-13",
+        "codeOriginal": "p=t^4*t>>7|t>>6,p*(t&1|t>>12)"
+      },
+      {
+        "date": "2022-10-02",
+        "codeOriginal": "t-(t&t>>6)*t>>12"
+      }
+    ]
   },
   {
     "description": "moon scanner generation - only 1 part",
     "date": "2022-09-17",
-    "codeOriginal": "t-(t^t>>5)",
-    "starred": 1
+    "codeOriginal": "t-(t^t>>5)"
   }
 ]
