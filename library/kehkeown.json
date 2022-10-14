@@ -1,6 +1,7 @@
 [
   {
     "description": "digital grind",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-07-22",
     "sampleRate": 44100,
     "codeOriginal": "((t>>8096|t>>6|t>>5)*(t>>8))",
@@ -8,6 +9,7 @@
   },
   {
     "description": "weird",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-07-24",
     "codeOriginal": "t=t*((t>>6|t>>5)|t>>3)",
     "codeMinified": "t*((t>>6|t>>5)|t>>3)"
@@ -30,6 +32,7 @@
   },
   {
     "description": "Noisy Remix",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-03",
     "children": [
       {
@@ -47,15 +50,29 @@
   },
   {
     "description": "puzzle",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-05",
     "codeOriginal": "((t>>8&12)*t)+(-t*6^(t>>7))",
     "starred": 1
   },
   {
     "description": "thing",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-08",
     "codeOriginal": "(t&t>>11)*t",
     "starred": 1
+  },
+  {
+    "date": "2022-10-05",
+    "codeOriginal": "(t/(t*127))>>t/127|t^t%127^t>>9|(t>>4^t>>5)"
+  },
+  {
+    "date": "2022-10-03",
+    "codeOriginal": "t>>5|t>>4|t|(t+(t^t%127|t+t>>8|t%127)*(t>>16))"
+  },
+  {
+    "date": "2022-10-03",
+    "codeOriginal": "t/(t-t|t%127)"
   },
   {
     "description": "melody harmony",
@@ -73,21 +90,26 @@
         "codeOriginal": "t^-t*cos(t>>13)"
       },
       {
+        "description": "source",
+        "url": "https://kehkeown.github.io/bytebeat-codes/",
         "date": "2022-09-23",
         "codeOriginal": "t^-((t&t>>6^(t^-(t+(t^-t>>8)^t)-t^-t>>9))^-t%t)",
         "codeMinified": "t^-(t&t>>6^(t^-(t+(t^-t>>8)^t)-t^-t>>9))^-t%t"
       },
       {
+        "description": "source",
+        "url": "https://kehkeown.github.io/bytebeat-codes/",
         "date": "2022-09-22",
         "codeOriginal": "t-(t>>12|t^t>>5)"
       },
       {
-        "description": "",
         "date": "2022-09-22",
         "codeOriginal": "t-(t^-t>>6)",
         "starred": 1
       },
       {
+        "description": "source",
+        "url": "https://kehkeown.github.io/bytebeat-codes/",
         "date": "2022-09-22",
         "codeOriginal": "t^-(t^-t>>6)%255"
       },
@@ -106,17 +128,20 @@
   },
   {
     "description": "wrinkle rhythm",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-09",
     "codeOriginal": "t>>(t+(t>>7)^(t&t>>6)) ",
     "starred": 1
   },
   {
     "description": "buzzing machine",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-10",
     "codeOriginal": "t*t^t>>6"
   },
   {
     "description": "crude sinewave dubstep but fast",
+    "url": "https://kehkeown.github.io/bytebeat-codes/",
     "date": "2022-09-12",
     "sampleRate": 32000,
     "codeOriginal": "a=t*cos(t>>11&t)^t,a+t",
