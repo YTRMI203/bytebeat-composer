@@ -292,58 +292,5 @@
 			"description": "Fist punch version",
 			"codeOriginal": "t*((t&4096?t%65536<59392?7:t>>6:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?4:3:2)"
 		}]
-	}, {
-		"children": [{
-			"description": "\"Flying deep in dark space, you caught a distress signal and landed on an icy planet. In this frozen world, you have found an abandoned base of colonists. There is not a single survivor...\""
-		}, {
-			"description": "Frozen Planet",
-			"url": "https://battleofthebits.org/arena/Entry/Frozen+Planet/50767/",
-			"date": "2022-01-11",
-			"sampleRate": 44100,
-			"file": "SthephanShi - Frozen Planet.js",
-			"fileFormatted": true,
-			"fileMinified": true,
-			"fileOriginal": true,
-			"starred": 2
-		}]
-	}, {
-		"children": [{
-			"description": "\"An endless world of snowy expanses, icebergs, and blue waters...\"<br>The composition is based on playing with coefficients of square-wave arpeggiator and a sine modifier. A notes array is used to generate different sounds in different iterations."
-		}, {
-			"description": "Antarctica",
-			"url": "https://www.reddit.com/r/bytebeat/comments/ufxliq/antarctica/",
-			"date": "2022-05-01",
-			"sampleRate": 44100,
-			"file": "SthephanShi - Antarctica.js",
-			"fileMinified": true,
-			"fileOriginal": true,
-			"starred": 2
-		}]
-	}, {
-		"children": [{
-			"description": "\"For thousands of years there was a world of glaciers, snowy expanses and ice caves. But the earth is changing. Giant ice walls are crumbling, falling in huge chunks. Here and there the first flowers bloom and the grass turns green. The first spring is coming to these lands...\"<br>Tried to get something like a NES sound. Successfully turned out a noise function, universal for different percussions. Also added the triangle generator."
-		}, {
-			"description": "End of Ice Age",
-			"url": "https://battleofthebits.org/arena/Entry/End+of+Ice+Age/53085/",
-			"date": "2022-05-02",
-			"sampleRate": 44100,
-			"file": "SthephanShi - End of Ice Age.js",
-			"fileMinified": true,
-			"fileOriginal": true,
-			"starred": 2
-		}]
-	}, {
-		"children": [{
-			"description": "\"The streets of the night metropolis are full of dangers! But the Moon lights your way, and you're not afraid of anything. Feel free to move forward through the narrow lanes!\""
-		}, {
-			"description": "Dancing Moon",
-			"url": "https://www.reddit.com/r/bytebeat/comments/ux48ti/dancing_moon/",
-			"date": "2022-05-25",
-			"sampleRate": 44100,
-			"file": "SthephanShi - Dancing Moon.js",
-			"fileMinified": true,
-			"fileOriginal": true,
-			"starred": 2
-		}]
 	}
 ]
