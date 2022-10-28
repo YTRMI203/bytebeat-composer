@@ -1,20 +1,24 @@
+
 [
-	{
-		"author": "3DGtemp",
-		"children": [{
-			"description": "scheming weasel on bytebeat (the cheating way)",
-			"url": "https://www.reddit.com/r/bytebeat/comments/yd8ltf/scheming_weasel_on_bytebeat_the_cheating_way/",
-			"date": "2022-10-25",
-			"file": "sheming_weasel.js",
-			"fileOriginal": true
-		}, {
-			"description": "Impromptu (Diatom)",
-			"url": "https://battleofthebits.org/arena/Entry/Impromptu+%28Diatom%29/34240/",
-			"date": "2020-04-25",
-			"file": "Radnyx - Impromptu (Diatom).js",
-			"fileOriginal": true,
-			"starred": 1
-		}]
-	}, {
-	}
+  {
+    "author": "3DGtemp",
+    "children": [
+      {
+        "description": "scheming weasel on bytebeat (the cheating way)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/yd8ltf/scheming_weasel_on_bytebeat_the_cheating_way/",
+        "date": "2022-10-25",
+        "file": "sheming_weasel.js",
+        "fileOriginal": true,
+        "starred": 2
+      },
+      {
+        "description": "hey all scott here",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ycktvk/hey_all_scott_here_8khz/",
+        "date": "2022-10-24",
+        "file": "hey_all_scot_here.js",
+        "fileOriginal": true,
+        "starred": 1
+      }
+    ]
+  }
 ]
